@@ -1,70 +1,117 @@
-# Getting Started with Create React App
+# Juspay Assignment 2 - Interactive React Application
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+A modern, interactive web application built with React.js featuring smooth animations and a multi-screen navigation system. This project demonstrates advanced React concepts including state management, component composition, and responsive design.
 
-## Available Scripts
+## 🚀 Features
 
-In the project directory, you can run:
+- **Multi-Screen Navigation**: Seamless transitions between different application screens
+- **Smooth Animations**: Powered by Framer Motion for fluid user interactions
+- **Modern UI/UX**: Clean interface using TailwindCSS for styling
+- **Responsive Design**: Optimized for various screen sizes and devices
+- **Component-Based Architecture**: Modular and maintainable code structure
+
+## 🛠️ Tech Stack
+
+- **Frontend**: React 19.2.0
+- **Styling**: TailwindCSS 4.1.17
+- **Animations**: Framer Motion 12.23.24
+- **Icons**: Lucide React 0.555.0
+- **Build Tool**: Create React App 5.0.1
+- **Testing**: React Testing Library
+
+## 📁 Project Structure
+
+```
+src/
+├── components/
+│   ├── screens/           # Main application screens
+│   │   ├── HomeScreen.jsx
+│   │   ├── MainMenu.jsx
+│   │   ├── ProductsServices.jsx
+│   │   ├── Consulting.jsx
+│   │   └── DataStrategy.jsx
+│   └── ui/               # Reusable UI components
+├── data/                 # Static data and configurations
+├── styles/               # Custom styles and CSS
+├── App.jsx              # Main application component
+└── index.js             # Application entry point
+```
+
+## 🚀 Getting Started
+
+### Prerequisites
+
+- Node.js (version 14 or higher)
+- npm or yarn package manager
+
+### Installation
+
+1. Clone the repository:
+```bash
+git clone https://github.com/CodesavvySiddharth/Juspay-Assignment2.git
+cd Juspay-Assignment2
+```
+
+2. Install dependencies:
+```bash
+npm install
+```
+
+3. Start the development server:
+```bash
+npm start
+```
+
+The application will be available at [http://localhost:3000](http://localhost:3000)
+
+## 📱 Available Scripts
 
 ### `npm start`
-
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
-
-The page will reload when you make changes.\
-You may also see any lint errors in the console.
+Runs the app in development mode. The browser will automatically open and reload when you make changes.
 
 ### `npm test`
-
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+Launches the test runner in interactive watch mode. See the [testing documentation](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
 
 ### `npm run build`
-
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
-
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
-
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
+Builds the app for production to the `build` folder. It optimizes the build for the best performance and is ready for deployment.
 
 ### `npm run eject`
+**Note: This is a one-way operation.** Ejecting copies all configuration files and dependencies into your project for full control over build configuration.
 
-**Note: this is a one-way operation. Once you `eject`, you can't go back!**
+## 🎯 Key Components
 
-If you aren't satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
+- **App.jsx**: Main application component managing screen navigation and state
+- **Screen Components**: Individual screens for different sections of the application
+- **UI Components**: Reusable components for consistent design across the app
 
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you're on your own.
+## 🌐 Deployment
 
-You don't have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn't feel obligated to use this feature. However we understand that this tool wouldn't be useful if you couldn't customize it when you are ready for it.
+The project is optimized for deployment and can be hosted on any static hosting service:
 
-## Learn More
+- Build the project: `npm run build`
+- Deploy the `build` folder to your preferred hosting platform
 
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
+## 📊 Build Information
 
-To learn React, check out the [React documentation](https://reactjs.org/).
+- **Build Size**: ~105 kB (gzipped)
+- **Performance**: Optimized for production with code splitting and minification
+- **Browser Support**: Modern browsers with >0.2% market share
 
-### Code Splitting
+## 🤝 Contributing
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
+1. Fork the repository
+2. Create a feature branch (`git checkout -b feature/AmazingFeature`)
+3. Commit your changes (`git commit -m 'Add some AmazingFeature'`)
+4. Push to the branch (`git push origin feature/AmazingFeature`)
+5. Open a Pull Request
 
-### Analyzing the Bundle Size
+## 📝 License
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
+This project is licensed under the MIT License - see the [LICENSE](LICENSE) file for details.
 
-### Making a Progressive Web App
+## 🔗 Links
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
-
-### Advanced Configuration
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
-
-### Deployment
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
-
-### `npm run build` fails to minify
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
+- [React Documentation](https://reactjs.org/)
+- [TailwindCSS Documentation](https://tailwindcss.com/)
+- [Framer Motion Documentation](https://www.framer.com/motion/)
+- [Create React App Documentation](https://facebook.github.io/create-react-app/)
